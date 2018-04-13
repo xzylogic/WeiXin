@@ -1,0 +1,17 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+    <form bindsubmit="formSubmit">
+        <view class="row">
+            <text>姓 名：</text>
+            <input type="text" name="userName" placeholder="请输入用户名" value="{{userName}}" />
+        </view>
+        <view class="row">
+            <text>密 码：</text>
+            <input type="password" name="userPassword" placeholder="请输入密码" value="{{userPassword}}" />
+        </view>
+        <view class="row">
+            <button type="primary" form-type="submit">登陆</button>
+        </view>
+    </form>
+</view>
+

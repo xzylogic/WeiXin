@@ -1,0 +1,59 @@
+{
+  "pages":[
+    "pages/bdy/bdy",
+    "pages/index/index",
+    "pages/lists/lists",
+    "pages/detail/detail",
+    "pages/aboutme/aboutme",
+    "pages/comment/comment",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/demo/demo"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2e5e86",
+    "navigationBarTitleText": "xzy",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#2e5e86",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"images/1.jpg",
+        "selectedIconPath":"images/4.png"
+      },
+      {
+        "pagePath": "pages/aboutme/aboutme",
+        "text": "日志",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/3.png"
+      },
+      {
+        "pagePath": "pages/comment/comment",
+        "text": "评论",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/2.png"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "信息",
+        "iconPath": "images/4.png",
+        "selectedIconPath": "images/1.jpg"
+      },
+      {
+        "pagePath": "pages/bdy/bdy",
+        "text": "内容",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/3.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

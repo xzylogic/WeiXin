@@ -1,0 +1,23 @@
+<!--pages/bdy/bdy.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='items-list'>
+  <view class='pro-item' wx:for="{{proList}}" wx:key="{{index}}" bindtap='toDetail' data-index='{{index}}'>
+    <image class='pro-logo' src='{{item.img}}'></image>
+    <view class='pro-body'>
+      <view class='pro-title'>{{item.title}}</view>
+      <!-- 注意：text可以识别\n换行标签 -->
+      <text class='pro-desc'>{{item.desc}}</text>
+    </view>
+    <view class='pro-footer'>
+      <image class='btn-detail' src='../../images/logob.png'></image>
+      <button open-type="contact" class='btn-ask'><image src='../../images/sousuo.jpg' /></button>
+    </view>
+  </view>
+</view>
+<button bindtap='copy'>复制内容</button>

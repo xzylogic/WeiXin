@@ -1,0 +1,37 @@
+/* pages/comment/comment.wxss */
+.msg-box{
+  padding: 20px;
+}
+.send-box{
+  display: flex;
+}
+.input{
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+.msg-info{
+  display: block;
+  margin: 10px 0 0 0;
+  color: #339999;
+}
+.place-input{
+  color: #ff6600;
+}
+.list-view{
+  margin: 20px 0 0 0;
+}
+.item{
+   overflow: hidden; 
+  border-bottom: 1px dashed #ccc;
+  height: 30px;
+  line-height: 30px;
+  /* clear: both; */
+}
+.text1{
+  float: left;
+}
+.close-btn{
+  float: right;
+  margin: 3px 5px 0 0;
+}

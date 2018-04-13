@@ -1,0 +1,17 @@
+<!--pages/aboutme/aboutme.wxml-->
+<image class='banner' src='../../images/yun5.jpg'></image>
+<view class='block'>
+  <view class='block-title'>关于我们</view>
+  <text class='block-desc'>HiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブ</text>
+</view>
+<view class='block'>
+  <view class='block-title'>关于我们</view>
+  <text class='block-desc'>HiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブ</text>
+</view>
+<view class='block'>
+  <view class='block-title'>关于我们</view>
+  <text class='block-desc'>HiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブHiHi~ o(*￣▽￣*)ブ</text>
+</view>
+<view>
+  <button bindtap='tell'>电话咨询</button>
+</view>

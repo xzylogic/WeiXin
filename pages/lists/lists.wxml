@@ -1,0 +1,14 @@
+<!--pages/lists/lists.wxml-->
+<text>pages/lists/lists.wxml</text>
+<template name="msgItem">
+  <navigator url='../../pages/detail/detail?id={{id}}'>
+    <view>
+      <text> {{index}}: {{msg}} </text>
+      <text> Time: {{time}} </text>
+      <text>{{id}}</text>
+    </view>
+  </navigator>
+</template>
+<view wx:for="{{itemss}}" wx:key="{{index}}">
+  <template is="msgItem" data="{{...item}}"/>
+</view>
